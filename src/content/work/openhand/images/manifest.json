@@ -1,0 +1,155 @@
+{
+  "brief": {
+    "name": "brief",
+    "width": 2880,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQBACdASoYAA8APt1cpkyopSOiMAgBEBuJYwCdACHgWEKEu4xiuWAoAAD+78hfyOCP9h+xgyRvVpPqp4e7yNa8eDc68nEjrKfZdWVB0iQAAA==",
+    "files": [
+      {
+        "file": "brief-800.webp",
+        "width": 800
+      },
+      {
+        "file": "brief-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "brief-2880.webp",
+        "width": 2880
+      }
+    ]
+  },
+  "canvas": {
+    "name": "canvas",
+    "width": 2880,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABQBACdASoYAA8APt1epkyopSOiMAgBEBuJbACdMoR3ACnHV0JlkbggVcKAAP6b2GJiMETQOQW3AeuxMZJgN2Nay9AZFUpHAMIXaolsgXauA2SDaRXUtAJKc3v+BVnrYn/KNBndPyUQ9jh5FzPJCtpe1KnoA6VR4jFXUni1tMoQ9g6uzllSamug2+lLX8wA",
+    "files": [
+      {
+        "file": "canvas-800.webp",
+        "width": 800
+      },
+      {
+        "file": "canvas-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "canvas-2880.webp",
+        "width": 2880
+      }
+    ]
+  },
+  "cover": {
+    "name": "cover",
+    "width": 2880,
+    "height": 1512,
+    "blur": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAABwBACdASoYAA0APt1apkyopSOiMAgBEBuJbACdMoR3ACnT90Wj7achvaZEAAD8+209JA9nZmshIQDdbmGvnCnM+rodpAZpbQxdqNePRN0QdZSKXt7gQRinOBiQUH72L5ulcK9sI+s2iN/nqjvC+C4PQXUM39JRv4qhvBjdUS4iRt0fpexpwni7DpOXiXL4oAA=",
+    "files": [
+      {
+        "file": "cover-800.webp",
+        "width": 800
+      },
+      {
+        "file": "cover-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "cover-2880.webp",
+        "width": 2880
+      }
+    ],
+    "og": "cover-og.jpg"
+  },
+  "donorDesktop": {
+    "name": "donor-desktop",
+    "width": 1600,
+    "height": 1600,
+    "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwBACdASoYABgAPt1gq08opSQiKAqpEBuJYwCdABEcyR0/ncO/5HhwnPUvEnMAAP7vtSrLptz07Aw76VYO/AUs5tj6iLnZIhSorGv8zK6y8U42QSBMB8gaIla/RLaCGFP257SsijrjJvJFIAA=",
+    "files": [
+      {
+        "file": "donor-desktop-800.webp",
+        "width": 800
+      },
+      {
+        "file": "donor-desktop-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "donorMobile": {
+    "name": "donor-mobile",
+    "width": 1600,
+    "height": 1600,
+    "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACwBACdASoYABgAPt1mp0+opaMiKAqpEBuJQBOmUAAwV1CzTGf8StgppeCAMvkAAP7v15QyTWB38xhfRxjsijoU/LY7a0tM1VH1C3iRgVPLSWqweblTIwo6ksX9G/d9s2Sza3OqnFocF3iAwd9cfJGte982XsijqXAAAA==",
+    "files": [
+      {
+        "file": "donor-mobile-800.webp",
+        "width": 800
+      },
+      {
+        "file": "donor-mobile-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "history": {
+    "name": "history",
+    "width": 2880,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQBACdASoYAA8APt1cpkyopSOiMAgBEBuJYwCdACHh06JHilrftT/hJAD+78hKyQbbEzADg5FvC+fD+JAGNI1xZa4Cw4sCNX3TI8yaKLgAAA==",
+    "files": [
+      {
+        "file": "history-800.webp",
+        "width": 800
+      },
+      {
+        "file": "history-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "history-2880.webp",
+        "width": 2880
+      }
+    ]
+  },
+  "numbers": {
+    "name": "numbers",
+    "width": 2880,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBACdASoYAA8ALqVut1ujKKioiICkS2AE6ZQjgQ4DCAAZ3rA0myqcWUAAyOjb12nVzHdOYee42xsjC5AB0Fs+32P3ZayUKb+0VtJX6TYyN8hfN+U/UDrGxMyr/oAR9XflOaFwzYXsTKjUTNsrWqiMoTLiXa6Q762gAAAA",
+    "files": [
+      {
+        "file": "numbers-800.webp",
+        "width": 800
+      },
+      {
+        "file": "numbers-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "numbers-2880.webp",
+        "width": 2880
+      }
+    ]
+  },
+  "review": {
+    "name": "review",
+    "width": 2880,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwBACdASoYAA8APt1apkyopSOiMAgBEBuJZwC2yCHfcC8r+y1lU01hiiAA/vHKoySYsdeiQch1FKrXKmgqfjTZQ+xnr2qnrqdnAAAA",
+    "files": [
+      {
+        "file": "review-800.webp",
+        "width": 800
+      },
+      {
+        "file": "review-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "review-2880.webp",
+        "width": 2880
+      }
+    ]
+  }
+}

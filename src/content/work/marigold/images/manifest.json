@@ -1,0 +1,155 @@
+{
+  "caregiverText": {
+    "name": "caregiver-text",
+    "width": 2880,
+    "height": 2160,
+    "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAACwBACdASoYABIAPt1cpUyopSOiMAgBEBuJZQDDcCFy49tfbKCCkHPGHTWevXAAAP7o3Va3mBDF2SCNSkQFwZMVVbIoZYZD9Hosui5KF+dY5q9k2bG9YatNym7OoYGqPTlfY/qFJ+SwZXkWIQAAAA==",
+    "files": [
+      {
+        "file": "caregiver-text-800.webp",
+        "width": 800
+      },
+      {
+        "file": "caregiver-text-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "caregiver-text-2880.webp",
+        "width": 2880
+      }
+    ]
+  },
+  "cover": {
+    "name": "cover",
+    "width": 2880,
+    "height": 1512,
+    "blur": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAABwBACdASoYAA0APt1cp0yopSOiMAgBEBuJbACdMoRwACoTD5xsG07b1ivwAAD+i9jjsRNzdJjadWZkTa8a26bt/m+FwOBFk9ZVgd9/qhp4j0+vS6hsuK4kFa6ysDhx80N0AEg6twod2t3hWOg4zfG5/vCUMpWAPx6/f+59b3F7nXH331WZtaZWmMAwR8dowAA=",
+    "files": [
+      {
+        "file": "cover-800.webp",
+        "width": 800
+      },
+      {
+        "file": "cover-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "cover-2880.webp",
+        "width": 2880
+      }
+    ],
+    "og": "cover-og.jpg"
+  },
+  "day": {
+    "name": "day",
+    "width": 1600,
+    "height": 1600,
+    "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADQBACdASoYABgAPt1mqFAopaOiqAqpEBuJYgC7LzwA6r87JuB17q23ZcJVkCIiCAD+79Irpj1H2qKOj5Ac86NZNAVzDT3dhSMfyTP1/BZ4qXpobZXLk1S0oqGtU6Tu20nw4mlY2c580csEtAF8vgAAAAA=",
+    "files": [
+      {
+        "file": "day-800.webp",
+        "width": 800
+      },
+      {
+        "file": "day-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "oldAlarm": {
+    "name": "old-alarm",
+    "width": 2880,
+    "height": 2160,
+    "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABwBACdASoYABIAPt1orVEopaQiqAgBEBuJQBgbgiVrReaY07fj72MdNdpe4AD+3tIujQjcK1/kql3mS0XBWDkMe54RzD5RO+wzKkTyrlnDZUcmdc8TH61n4WavVwDophcB5vrtGAA=",
+    "files": [
+      {
+        "file": "old-alarm-800.webp",
+        "width": 800
+      },
+      {
+        "file": "old-alarm-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "old-alarm-2880.webp",
+        "width": 2880
+      }
+    ]
+  },
+  "pillId": {
+    "name": "pill-id",
+    "width": 1600,
+    "height": 1600,
+    "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBQCdASoYABgAPt1gqE4opaOiKA1REBuJZACxHwABgBTu48W4UGvhPOT5KcF5jrxl4AD+79Ir0job6rG2JCYDlBfGilZbv+F1JWGcI31l64qlkGIVTBZ86UrPQc25D7pLht0/wf/KGuB7qZqTB8KHp39WlCC4UAAAAA==",
+    "files": [
+      {
+        "file": "pill-id-800.webp",
+        "width": 800
+      },
+      {
+        "file": "pill-id-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "reminder": {
+    "name": "reminder",
+    "width": 2880,
+    "height": 2160,
+    "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAQBQCdASoYABIAPt1aqE8opKOiMBgIARAbiWoAnS/W+Z/jAAMinGKAlG1EWlC7Ez4wAP6LruUbtxjSxbEbBOvbPZAJwU+t6zM4yZ//hRV2Vvhk9l+HbNoXzh1Ra95sTIjiordhHUxLqa0teyZ+LPOBwOiC+iHY57F+qjAA",
+    "files": [
+      {
+        "file": "reminder-800.webp",
+        "width": 800
+      },
+      {
+        "file": "reminder-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "reminder-2880.webp",
+        "width": 2880
+      }
+    ]
+  },
+  "setup": {
+    "name": "setup",
+    "width": 2880,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoYAA8APt1ep00opSOiMAgBEBuJZwDG9CHf60Xrk/odVgAAAP7vxWKcxSwt8+N6FBaom7UkuD7q4IIXc2VK/ziSAwwbIGvRuAA=",
+    "files": [
+      {
+        "file": "setup-800.webp",
+        "width": 800
+      },
+      {
+        "file": "setup-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "setup-2880.webp",
+        "width": 2880
+      }
+    ]
+  },
+  "weekly": {
+    "name": "weekly",
+    "width": 2880,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABwBACdASoYAA8APt1cp0yopSOiMAgBEBuJbACdMoR3ACqwzss/3FHOJzgQAAD+4ietYR6GxYz2b6jZMMYGJQ7XEQZ7BCi0JVi6d776wUztn9Dd7OaGdybOT0Zq0N6W12e56PXH98mkyi8/hoUAB8i8RiJ+rFY2g7sdrY+R6jUdSfob5yzM4eK1gifLn4d6IQgAAA==",
+    "files": [
+      {
+        "file": "weekly-800.webp",
+        "width": 800
+      },
+      {
+        "file": "weekly-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "weekly-2880.webp",
+        "width": 2880
+      }
+    ]
+  }
+}
