@@ -1,9 +1,20 @@
+<a href="https://layerwise.app"><picture><source media="(prefers-color-scheme: dark)" srcset="https://layerwise.app/powered-by-dark.png"><img src="https://layerwise.app/powered-by.png" alt="Powered by Layerwise" width="174" height="28"></picture></a>
+
 # Playroom
 
-A light, contemporary portfolio template for a product designer who codes. It ships with a
-fictional designer, Mina Okafor, and five sample case studies whose screens are
-real React components: every card on the home page runs a live demo you can
-pause and try.
+Playroom is a light, contemporary portfolio template for product designers who
+code. It ships with a fictional designer, Mina Okafor, five sample case studies,
+and three essays. The case study screens are real React components, so every
+card on the home page runs a live demo that visitors can pause and try.
+
+Visitors can browse the work wall, open a case study for the brief, the
+decisions, and the outcome, try seven small interaction experiments on the Play
+tab, read the About page and download a CV, read essays on the Writing tab, and
+send a message through the contact form. See the live demo at
+[playroom.layerwise.site](https://playroom.layerwise.site/).
+
+Playroom was built with [Layerwise](https://layerwise.app), and you can open it
+in Layerwise to make your own version.
 
 Built with TanStack Start, React, Tailwind CSS, and Cloudflare Workers (D1 for
 contact messages, Layerwise Email for notifications). Every page renders on the
@@ -35,6 +46,10 @@ pnpm cf-typegen                      # after editing wrangler.jsonc
 | `src/content/work/<slug>/`        | Its images, theme, and (optionally) live demo                        |
 | `src/content/writing/<slug>.ts`   | One essay                                                            |
 | `src/lib/site.ts`                 | Search and sharing: description, share image, domain, sitemap paths |
+| `src/components/site/footer.tsx`  | Footer copy, the "Write to me" button, and the Powered by Layerwise badge |
+| `src/routes/_site/_tabs/index.tsx` | Home page: the closing "Start a conversation" panel                 |
+| `src/routes/_site/_tabs/play.tsx` | Play page intro and which experiments it shows                       |
+| `src/routes/_site/contact.tsx`    | Contact page copy and form labels                                    |
 | `public/mina-okafor-cv.pdf`       | The CV the About page links to (`portfolio.cv`)                      |
 | `public/og-image.jpg`             | Share image for pages without their own (1200 × 630)                 |
 | `public/logo.svg`                 | The logo; `pnpm icons` makes `logo.png` and every favicon from it    |
@@ -59,7 +74,8 @@ and Contact (`/contact`). `/work` redirects to `/`.
 5. Replace `public/og-image.jpg` with a 1200 × 630 screenshot of your intro.
 6. Replace `public/logo.svg` with your own square logo and run `pnpm icons`.
    It writes `logo.png` (1024 × 1024), `favicon.svg`, `favicon.ico`, the
-   16 and 32 px PNGs, `apple-touch-icon.png`, and both `android-chrome` icons.
+   16 and 32 px PNGs, `favicon.png`, `apple-touch-icon.png`, and both
+   `android-chrome` icons.
    Small icons stay sharp when lines sit on whole pixels at 16 and 32 px: on a
    1024 canvas, put edges on multiples of 64. The app manifest
    (`/site.webmanifest`) takes its name and colors from the portfolio config.
@@ -183,14 +199,15 @@ shortest example.
   every width.
 - `useDirector(async (d) => { … })` runs the loop: `d.move('target')` glides
   the cursor to an element with `data-target="target"`, `d.press()` clicks,
-  `d.type(text, set)` types, `d.wait(ms)` pauses. Render `<DemoCursor>` inside
-  the stage and pass `rootRef` as its `innerRef`.
+  `d.type(text, set)` types, `d.wait(ms)` pauses. Pass the hook's `rootRef` to
+  the Stage as `innerRef`, and render `<DemoCursor cursor={cursor}>` inside the
+  stage with the hook's `cursor`.
 - The component's initial state must be its **finished** state. That's what
   the server renders, what people with reduced motion see, and what the loop
   starts from: a pass holds it, resets, and builds back up.
 - The loop pauses off screen and in background tabs. Hovering the card (or
   tapping it on a phone, or focusing it with the keyboard) stops the loop and
-  hands the controls to the visitor; `d.engaged` is then true.
+  hands the controls to the visitor; the hook's `engaged` is then true.
 - Everything must work with a tap and a keyboard. Never put content behind
   hover alone.
 

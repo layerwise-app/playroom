@@ -6,12 +6,24 @@ export function SiteFooter() {
   // footer is just the meta line.
   const onContact = useLocation({ select: (location) => location.pathname === '/contact' });
   const meta = (
-    <p className='flex flex-wrap justify-between gap-x-6 gap-y-1 font-mono text-[0.75rem] text-ink-muted'>
-      <span>
-        {portfolio.name} · {portfolio.location}
-      </span>
-      <span>{portfolio.role}</span>
-    </p>
+    <div className='flex flex-wrap items-center justify-between gap-x-6 gap-y-4'>
+      <p className='flex flex-wrap gap-x-6 gap-y-1 font-mono text-[0.75rem] text-ink-muted'>
+        <span>
+          {portfolio.name} · {portfolio.location}
+        </span>
+        <span>{portfolio.role}</span>
+      </p>
+      <a href='https://layerwise.app' target='_blank' rel='noopener' className='inline-flex shrink-0 rounded-md'>
+        <img
+          src='https://layerwise.app/powered-by.png'
+          alt='Powered by Layerwise'
+          width={174}
+          height={28}
+          loading='lazy'
+          className='block h-7 w-[174px]'
+        />
+      </a>
+    </div>
   );
 
   if (onContact) {
